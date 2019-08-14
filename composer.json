@@ -1,0 +1,40 @@
+{
+    "name": "razonyang/____",
+    "description": "Yii2 ____",
+    "type": "yii2-extension",
+    "keywords": ["____"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Razon Yang",
+            "email": "razonyang@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.2",
+        "yiisoft/yii2": "~2.0.13"
+    },
+    "require-dev": {
+        "codeception/codeception": "^3.0",
+        "codeception/verify": "^1.1",
+        "phpunit/phpunit": "^8"
+    },
+    "autoload": {
+        "psr-4": {
+            "RazonYang\\Yii2\\____\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "RazonYang\\Yii2\\____\\Tests\\": "tests/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}
