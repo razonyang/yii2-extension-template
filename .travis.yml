@@ -8,7 +8,7 @@ php:
 sudo: false
 
 services:
-  - mysql
+#  - mysql
 
 # cache vendor dirs
 cache:
@@ -21,8 +21,8 @@ install:
   - travis_retry composer install --prefer-dist --no-interaction
 
 before_script:
-  - mysql -e 'CREATE DATABASE test;'
-  - php tests/yii migrate/fresh --interactive=0
+#  - mysql -e 'CREATE DATABASE test;'
+#  - php tests/yii migrate/fresh --interactive=0
 
 script:
   - vendor/bin/codecept run --coverage --coverage-xml
