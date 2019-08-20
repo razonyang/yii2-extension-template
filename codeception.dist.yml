@@ -15,4 +15,3 @@ coverage:
     include:
         - src/*
     exclude:
-        - src/Migration/*
