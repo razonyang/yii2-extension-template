@@ -13,13 +13,13 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "php": "^7.2",
+        "php": "^7.1",
         "yiisoft/yii2": "~2.0.13"
     },
     "require-dev": {
         "codeception/codeception": "^3.0",
         "codeception/verify": "^1.1",
-        "phpunit/phpunit": "^8"
+        "phpunit/phpunit": "^7"
     },
     "autoload": {
         "psr-4": {
